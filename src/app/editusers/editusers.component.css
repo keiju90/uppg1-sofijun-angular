@@ -1,0 +1,18 @@
+
+div {
+    background-color: rgb(255, 249, 231);
+    height:  300px;
+    width: 300px;
+    float: left;
+}
+
+button {
+    margin: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 61, 174);
+    border: none;
+}   
+
+
+
