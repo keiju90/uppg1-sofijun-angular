@@ -1,10 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-
-// const users = [
-//   {id:1, name:"sofia"}
-// ]; 
-
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -13,35 +8,19 @@ import { Component, OnInit } from '@angular/core';
 
 export class DashboardComponent implements OnInit {
 
-
-
-  // name: string = '';
-
-  // setValue(): void {
-  //   this.name = 'Nancy';
-  // }
-
-
-
-  // userfromchild:string = "user from child";
-
-  // methodInParent(event:any){
-  //   console.log('whats passed from event', event);
-  //   this.userfromchild = event;
-  // }
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  // clicked(): void{
-  //   console.log("you clicked me")
-  // }
+//Array list that is created that takes in  the newuser from adduser below.
+// from here the array list will go to the dashboard template and sent to user-list component.
+users: string[] = ["user 1"];
 
-items = ["item1"];
-
-addItem(newItem: string) {
-  this.items.push(newItem);
+// addUser from dashboard.component.html template, 
+// takes a newuser avd oushes it to the array. 
+addUser(newUser: string) {
+  this.users.push(newUser);
 }
 
 }

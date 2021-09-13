@@ -1,24 +1,14 @@
 <p>dashboard Component works!</p>
 <!-- <app-editusers (onChangeInChild)="methodInParent($event)" > </app-editusers>   -->
-<app-editusers  (newItemEvent)=addItem($event)> </app-editusers> 
-<app-userlist ></app-userlist>
 
-<!-- <input [(ngModel)]="name" required>
-<p>{{name}}</p>
-<button (click)="setValue()">Set value</button> -->
+<!-- newUserEvent from @Output in editusers.component.ts  -->
+<app-editusers (newUserEvent)=addUser($event)> </app-editusers> 
 
-<!-- {{userfromchild}} -->
-
-
-<!-- <button (click)="clicked()">click me</button>
-<ul>
-    <li *ngFor = "let user of users">
-        {{user.name}}
-    </li>
-</ul> -->
-
+<!-- Array list from dashboard.comp.ts is sent to userlist component -->
+<app-userlist [users]="users"></app-userlist>
+<!-- 
 <div>
     <ul>
-    <li *ngFor="let item of items">{{item}}</li>
+    <li *ngFor="let user of users">{{user}}</li>
     </ul>
-</div> 
+</div>  -->

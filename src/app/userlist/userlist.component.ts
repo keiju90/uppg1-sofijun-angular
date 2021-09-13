@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: 'app-userlist',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./userlist.component.css']
 })
 export class UserlistComponent implements OnInit {
+  //array list users is sent to here from dashboard.comp.html as users
+  @Input() users: string[];
+  // @Input() users: string[];
 
   constructor() { }
 
