@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    /* sets margin and padding to on whole documnt */
+    padding:0;
+    margin: 0;
+    /* waffle background */
+    background: #ffca69;
+    background-image: linear-gradient(#ffd686 4px, transparent 0),
+                      linear-gradient(90deg, #ffd686 4px, transparent 0),
+                      linear-gradient(#efb956  9px, transparent 0),
+                      linear-gradient(90deg, #efb956 9px, transparent 0);
+    background-size: 29px 29px;
+}
+
+html {
+    
+}

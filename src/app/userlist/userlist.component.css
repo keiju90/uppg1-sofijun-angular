@@ -1,4 +1,15 @@
 div {
     background-color: rgb(253, 137, 228);
-   
+    height:  400px;
+    width: 400px;
+    float: right;
+    border-radius: 300px;
+
 }
+
+h2 {
+    hyphens: auto;
+    margin: 0.75em;
+    text-align: center;
+}
+

@@ -1,0 +1,10 @@
+ul {
+    list-style-type: none;
+}
+
+div {
+hyphens: auto;
+  margin: 0.75em;
+  text-align: center;
+
+}
