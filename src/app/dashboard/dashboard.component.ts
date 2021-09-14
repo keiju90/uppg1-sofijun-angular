@@ -15,7 +15,7 @@ export class DashboardComponent implements OnInit {
 
 //Array list that is created that takes in  the newuser from adduser below.
 // from here the array list will go to the dashboard template and sent to user-list component.
-users: string[] = ["user 1"];
+users: string[] = ["Chocolate fudge", "Ice cream", "lollipop", "Soda"];
 
 // addUser from dashboard.component.html template, 
 // takes a newuser avd oushes it to the array. 

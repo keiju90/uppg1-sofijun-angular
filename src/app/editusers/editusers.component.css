@@ -4,15 +4,80 @@ div {
     height:  400px;
     width: 400px;
     float: left;
+    border-radius: 300px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+
+
+    /* aligning input, button and text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#icon2 {
+    display: block;
+    /* margin: 0 auto;  */
+    padding-top: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 50px;
+}
+
+h1 {
+    color: #ff45b8;
+    margin:0;
+    padding:0;
+    font-size: 2.5rem;
+}
+
+h3 {
+    margin: 0px;
+    padding:0;
 }
 
 button {
-    margin: 5px;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 30px;
     background-color: rgb(255, 61, 174);
     border: none;
-}   
+    align-content: center;
+    /* display: block;
+    margin: 0 auto; */
+    justify-content: center;
+    font-family: 'Urbanist', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1.9px;
+    font-weight: 600;
+
+    transition-duration: 0.4s;
+}  
+
+button:hover {
+    background-color: rgb(253, 137, 228);
+    color: rgb(31, 19, 11);
+}
+
+
+input {
+    padding: 10px;
+    margin-bottom: 0px;
+    border: none;
+    background-color:rgb(255, 236, 193);
+    border-radius: 20px;
+    width: 200px;
+
+    text-align: center;
+    font-family: monospace;
+
+    /* display: block;
+    margin: 0 auto; */
+    justify-content: center;
+}
+
 
 
 

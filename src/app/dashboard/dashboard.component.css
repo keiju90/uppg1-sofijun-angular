@@ -4,13 +4,30 @@
     /* font-family: 'Berkshire Swash', cursive; */
 }
 
+/* icecream cone */
+img {
+    width: 200px;
+    z-index:-1;
+    position: absolute;
+    rotate: -20deg;
+    /* margin-left: 1200px; */
+}
+
+#chocolatecone {
+    width: 190px;
+    z-index:1;
+    position: absolute;
+    rotate: 20deg;
+    margin-left: -90px;
+}
+
 h1 {
     color: #ff45b8;
     font-family: 'Berkshire Swash', cursive;
     font-size: 4em;
     text-align: center;
     margin:0;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 2px
 }
 

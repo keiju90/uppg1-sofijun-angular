@@ -6,7 +6,10 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./userlistitem.component.css']
 })
 export class UserlistitemComponent implements OnInit {
-@Input() users: string[];
+// @Input() users: string[];
+// Takes in one user from the array in userlistitem
+@Input() user: string;
+
   constructor() { }
 
   ngOnInit(): void {

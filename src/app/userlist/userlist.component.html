@@ -1,6 +1,8 @@
 <div>
-    <h2>userlist, list of users</h2>
-    <app-userlistitem [users]="users"></app-userlistitem>
-    
+    <img id="icon" src="../../assets/ice-cream-2.png" alt="">
+        <h1>Userlist</h1>
+            <ul>
+                <li *ngFor="let user of users">
+                    <app-userlistitem [user]="user"></app-userlistitem></li>
+            </ul>
 </div>
-   

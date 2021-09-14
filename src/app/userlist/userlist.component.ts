@@ -8,7 +8,7 @@ import { Component, OnInit, Input} from '@angular/core';
 export class UserlistComponent implements OnInit {
   //array list users is sent to here from dashboard.comp.html as users
   @Input() users: string[];
-  // @Input() users: string[];
+
 
   constructor() { }
 
