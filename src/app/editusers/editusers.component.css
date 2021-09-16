@@ -1,13 +1,11 @@
-
-div {
+:host {
     background-color: rgb(255, 249, 231);
-    height:  400px;
-    width: 400px;
+    height:  500px;
+    width: 500px;
     float: left;
     border-radius: 300px;
-    margin-left: 180px;
-    margin-bottom: 100px;
-
+    /* margin-left: 180px;
+    margin-bottom: 100px; */
 
     /* aligning input, button and text */
     display: flex;
@@ -38,7 +36,7 @@ h3 {
     padding:0;
 }
 
-button {
+#addbtn {
     padding: 20px;
     border-radius: 30px;
     background-color: rgb(255, 61, 174);
@@ -56,10 +54,36 @@ button {
     transition-duration: 0.4s;
 }  
 
-button:hover {
+#addbtn:hover {
     background-color: rgb(253, 137, 228);
     color: rgb(31, 19, 11);
 }
+
+
+#removebtn {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #4d3213;
+    border: none;
+    align-content: center;
+    /* display: block;
+    margin: 0 auto; */
+    justify-content: center;
+    font-family: 'Urbanist', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1.9px;
+    font-weight: 600;
+
+    transition-duration: 0.4s;
+}  
+
+#removebtn:hover {
+    background-color: #efb956;
+    color: rgb(31, 19, 11);
+}
+
+
 
 
 input {

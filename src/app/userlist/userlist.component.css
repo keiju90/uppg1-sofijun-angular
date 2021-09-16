@@ -1,11 +1,11 @@
-div {
+:host {
     background-color: rgb(253, 137, 228);
-    height:  400px;
-    width: 400px;
+    height:  500px;
+    width: 500px;
     float: right;
     border-radius: 300px;
-    margin-right: 180px;
-    margin-bottom: 100px;
+    /* margin-right: 180px;
+    margin-bottom: 100px; */
 }
 
 #icon {
