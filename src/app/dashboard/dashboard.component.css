@@ -37,6 +37,17 @@ img {
     margin-left: 1000px;
 }
 
+#donut2{
+    width: 230px;
+    z-index:1;
+    position: absolute;
+    rotate: 20deg;
+    margin-left: 950px;
+    margin-top: 240px;
+    
+
+}
+
 
 h1 {
     color: #ff45b8;

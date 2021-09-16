@@ -23,4 +23,7 @@ addUser(newUser: string) {
   this.users.push(newUser);
 }
 
+removeLastUser() {
+ this.users.pop()
+}
 }

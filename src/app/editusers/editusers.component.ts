@@ -15,7 +15,7 @@ export class EditusersComponent implements OnInit {
   // new EventEmitter<string>()—tells Angular to create a new event emitter 
   // and that the data it emits is of type string.
   @Output() newUserEvent = new EventEmitter<string>();
-
+  @Output() removeUserEvent = new EventEmitter<string>();
   //2. Secondly, create an addNewItem() method. 
   // The addNewItem() function uses the output, newItemEvent to raise an event with 
   // the value the user types into the <input>. Next go to editusers template.
@@ -27,6 +27,10 @@ userinput:string = '';
 
 addNewUser() {
   this.newUserEvent.emit(this.userinput);
+}
+
+removeUser () {
+this.removeUserEvent.emit();
 }
 
   ngOnInit(): void {
