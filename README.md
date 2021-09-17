@@ -1,6 +1,8 @@
 # uppg1-sofijun-angular
 UppgiftsBeskrivning - U1 Angular
 
+<img width="1371" alt="Angularuppg1" src="https://user-images.githubusercontent.com/54171324/133857640-a643585c-0c45-4034-a3f7-7cfb43d53cd9.png">
+
 I denna uppgift skall ni jobba med Angular och framförallt Komponenter och Direktiv (Components/Directives), med DataBinding.
 
 Uppgiften består av att ni skall skapa Komponenter som kommunicerar och delar data mellan sig. Uppgiften består av att skapa en enkel dashboard där man lägger till och tar bort användare. Det skall även gå att skifta färg på användarna. Ni finner hur applikation skall fungera i den bifogade filmen "Uppgift1 video" som ligger som bifogad fil i denna mapp.
