@@ -1,5 +1,4 @@
 :host {
-    /* background-color: rgb(253, 137, 228); */
     background-color:#ffb9d6;
     height:  400px;
     width: 400px;
@@ -20,7 +19,6 @@
     width: 45%;
     z-index: 2;
     position: absolute;
-    /* left: 290px; */
     right: 370px;
     top: -60px;
 }
@@ -41,10 +39,6 @@
     top: 250px;
 }
 
-#userlistbox {
-   
-}
-
 #icon {
     display: block;
     margin: 0 auto; 
@@ -63,12 +57,8 @@ ul {
 }
 
 h1 {
-    /* hyphens: auto; */
-    /* margin: 0.75em; */
     margin-top:0;
     text-align: center;
-    /* color: #4d3213; */
-    
     color: rgb(255, 61, 174);;
     font-size: 3rem;
     margin-bottom: 0;

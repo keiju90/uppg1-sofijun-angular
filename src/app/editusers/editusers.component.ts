@@ -19,9 +19,6 @@ export class EditusersComponent implements OnInit {
   //2. Secondly, create an addNewItem() method. 
   // The addNewItem() function uses the output, newItemEvent to raise an event with 
   // the value the user types into the <input>. Next go to editusers template.
-//   addNewUser(value:string) {
-//     this.newUserEvent.emit(value);
-// }
 
 userinput:string = ''; 
 

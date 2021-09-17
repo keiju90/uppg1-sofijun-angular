@@ -7,36 +7,7 @@
     margin-bottom: 100px; 
     text-align: center;
     margin-top: -100px;
-
-    /* aligning input, button and text */
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly; */
-    
 }
-
-/* icecream cone */
-#cone1 {
-    /* width: 23vh;
-    z-index:1;
-    position: absolute;
-    rotate: 20deg;
-    margin-top: 0px;
-    margin-left: 60vh;  
-    z-index:0;
-    width: 10%;
-    position: absolute;
-    right: 350px;
-    top: -40px;*/
-}
-/* #cone2 {
-    width: 20vh;
-    z-index:1;
-    position: absolute;
-    rotate: -20deg;
-    margin-left: -60vh;
-} */
 
 #icon2 {
     display: block;
@@ -74,15 +45,12 @@ h3 {
     background-color: rgb(255, 61, 174);
     border: none;
     align-content: center;
-    /* display: block;
-    margin: 0 auto; */
     justify-content: center;
     font-family: 'Urbanist', sans-serif;
     text-transform: uppercase;
     color: white;
     letter-spacing: 1.9px;
     font-weight: 600;
-
     transition-duration: 0.4s;
 }  
 
@@ -97,15 +65,12 @@ h3 {
     background-color: #4d3213;
     border: none;
     align-content: center;
-    /* display: block;
-    margin: 0 auto; */
     justify-content: center;
     font-family: 'Urbanist', sans-serif;
     text-transform: uppercase;
     color: white;
     letter-spacing: 1.9px;
     font-weight: 600;
-
     transition-duration: 0.4s;
 }  
 
@@ -121,7 +86,6 @@ input {
     background-color:rgb(255, 236, 193);
     border-radius: 20px;
     width: 200px;
-
     text-align: center;
     font-family: monospace;
 }

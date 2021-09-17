@@ -8,8 +8,6 @@ import { Component, OnInit } from '@angular/core';
 
 export class DashboardComponent implements OnInit {
 
-  constructor() { }
-
   ngOnInit(): void {
   }
 
@@ -18,7 +16,7 @@ export class DashboardComponent implements OnInit {
 users: string[] = ["Chocolate fudge", "Ice cream", "lollipop", "Soda"];
 
 // addUser from dashboard.component.html template, 
-// takes a newuser avd oushes it to the array. 
+// takes a newuser avd pushes it to the array. 
 addUser(newUser: string) {
   this.users.push(newUser);
 }
@@ -26,4 +24,5 @@ addUser(newUser: string) {
 removeLastUser() {
  this.users.pop()
 }
+
 }

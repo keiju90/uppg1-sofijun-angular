@@ -10,8 +10,6 @@ export class UserlistitemComponent implements OnInit {
 // Takes in one user from the array in userlistitem
 @Input() user: string;
 
-  constructor() { }
-
   ngOnInit(): void {
   }
 
