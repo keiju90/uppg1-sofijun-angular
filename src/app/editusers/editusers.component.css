@@ -1,39 +1,71 @@
 :host {
     background-color: rgb(255, 249, 231);
-    height:  500px;
-    width: 500px;
+    height:  400px;
+    width: 400px;
     float: left;
-    border-radius: 300px;
-    /* margin-left: 180px;
-    margin-bottom: 100px; */
+    border-radius: 10px;
+    margin-bottom: 100px; 
+    text-align: center;
+    margin-top: -100px;
 
     /* aligning input, button and text */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
+    
 }
 
+/* icecream cone */
+#cone1 {
+    /* width: 23vh;
+    z-index:1;
+    position: absolute;
+    rotate: 20deg;
+    margin-top: 0px;
+    margin-left: 60vh;  
+    z-index:0;
+    width: 10%;
+    position: absolute;
+    right: 350px;
+    top: -40px;*/
+}
+/* #cone2 {
+    width: 20vh;
+    z-index:1;
+    position: absolute;
+    rotate: -20deg;
+    margin-left: -60vh;
+} */
 
 #icon2 {
     display: block;
-    /* margin: 0 auto;  */
-    padding-top: 15px;
+    margin: 0 auto; 
+    padding-top: 40px;
     padding-bottom: 0;
     margin-bottom: 0;
-    width: 50px;
+    width: 45px;
 }
 
 h1 {
-    color: #ff45b8;
-    margin:0;
-    padding:0;
-    font-size: 2.5rem;
+    margin-top:0;
+    text-align: center;
+    color: rgb(255, 61, 174);;
+    font-size: 3rem;
+    margin-bottom: 0;
 }
 
 h3 {
-    margin: 0px;
+    text-align: center;
+    margin-top: 16px;
     padding:0;
+}
+
+#btn-box {
+    margin-top: 30px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #addbtn {
@@ -59,7 +91,6 @@ h3 {
     color: rgb(31, 19, 11);
 }
 
-
 #removebtn {
     padding: 20px;
     border-radius: 30px;
@@ -83,16 +114,9 @@ h3 {
     color: rgb(31, 19, 11);
 }
 
-#btn-box {
-    display: flex;
-    flex-direction: row;
-  /* justify-content: space-between; */
-}
-
-
 input {
     padding: 10px;
-    margin-bottom: 0px;
+    margin-top: 30px;
     border: none;
     background-color:rgb(255, 236, 193);
     border-radius: 20px;
@@ -100,10 +124,6 @@ input {
 
     text-align: center;
     font-family: monospace;
-
-    /* display: block;
-    margin: 0 auto; */
-    justify-content: center;
 }
 
 

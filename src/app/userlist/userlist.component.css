@@ -1,11 +1,48 @@
 :host {
-    background-color: rgb(253, 137, 228);
-    height:  500px;
-    width: 500px;
+    /* background-color: rgb(253, 137, 228); */
+    background-color:#ffb9d6;
+    height:  400px;
+    width: 400px;
     float: right;
-    border-radius: 300px;
-    /* margin-right: 180px;
-    margin-bottom: 100px; */
+    border-radius: 10px;
+    margin-bottom: 100px; 
+    overflow:auto;
+    margin-top: -100px;
+}
+
+#donutbox{
+   position: absolute;
+   width: 500px;
+   height: 400px;
+}
+
+#donut {
+    width: 45%;
+    z-index: 2;
+    position: absolute;
+    /* left: 290px; */
+    right: 370px;
+    top: -60px;
+}
+
+#donut2 {
+    z-index: 1;
+    width: 40%;
+    position: absolute;
+    left: 350px;
+    top: 150px;
+}
+
+#donut3 {
+    z-index:0;
+    width: 45%;
+    position: absolute;
+    left: 240px;
+    top: 250px;
+}
+
+#userlistbox {
+   
 }
 
 #icon {
@@ -14,7 +51,7 @@
     padding-top: 40px;
     padding-bottom: 0;
     margin-bottom: 0;
-    width: 50px;
+    width: 45px;
 }
 
 ul {
@@ -26,11 +63,13 @@ ul {
 }
 
 h1 {
-    hyphens: auto;
-    margin: 0.75em;
+    /* hyphens: auto; */
+    /* margin: 0.75em; */
     margin-top:0;
     text-align: center;
-    color: #4d3213;
-    font-size: 2.5rem;
+    /* color: #4d3213; */
+    
+    color: rgb(255, 61, 174);;
+    font-size: 3rem;
+    margin-bottom: 0;
 }
-
