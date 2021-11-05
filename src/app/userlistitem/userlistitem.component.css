@@ -9,3 +9,11 @@ div {
   text-align: center;
   font-family: 'Mukta', sans-serif;
 }
+
+.pinkClass { 
+  color: rgb(255, 92, 201) ;
+}
+
+.whiteClass { 
+  color: white ;
+}

@@ -1,14 +1,16 @@
 <div id="donutbox">
-    <!-- <img id="donut" src="../../assets/imgbin_donut-png.png" alt="donut"> -->
+    <img id="donut" src="../../assets/imgbin_donut-png.png" alt="donut"> 
     <img id="donut2" src="../../assets/PngItem_2126920.png" alt="donut">
     <img id="donut3" src="../../assets/Donuts-PNG-Royalty-Free.png" alt="donut">
+    <img id= "lollipop" src="../../assets/pngaaa.com-1257070.png" alt="lollipop">
 </div>
 
     <img id="icon" src="../../assets/ice-cream-2.png" alt=""> 
         <h1>Userlist</h1>
             <ul>
                 <li *ngFor="let user of users">
-                    <app-userlistitem [user]="user"></app-userlistitem></li>
+                    <app-userlistitem [user]="user" [textColor]="textColor"></app-userlistitem></li>
             </ul>
+            <button (click)="changeColor()">Toggle Colors</button>
 
 

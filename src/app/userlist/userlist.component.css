@@ -5,7 +5,7 @@
     float: right;
     border-radius: 10px;
     margin-bottom: 100px; 
-    overflow:auto;
+    overflow: auto;
     margin-top: -100px;
 }
 
@@ -13,18 +13,17 @@
    position: absolute;
    width: 500px;
    height: 400px;
+   z-index: -2;
 }
 
 #donut {
-    width: 45%;
-    z-index: 2;
+    width: 40%;
     position: absolute;
-    right: 370px;
+    right: 900px;
     top: -60px;
 }
 
 #donut2 {
-    z-index: 1;
     width: 40%;
     position: absolute;
     left: 350px;
@@ -32,11 +31,18 @@
 }
 
 #donut3 {
-    z-index:0;
     width: 45%;
     position: absolute;
-    left: 240px;
-    top: 250px;
+    left: -110px;
+    top: 300px;
+}
+
+#lollipop {
+    width: 40%;
+    position: absolute;
+    right: 900px;
+    top: 200px;
+    rotate: -40deg;
 }
 
 #icon {
@@ -62,4 +68,24 @@ h1 {
     color: rgb(255, 61, 174);;
     font-size: 3rem;
     margin-bottom: 0;
+}
+
+button{
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(255, 61, 174);
+    border: none;
+    display: block;
+    margin: 0 auto; 
+    font-family: 'Urbanist', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1.9px;
+    font-weight: 600;
+    transition-duration: 0.4s;
+}  
+
+button:hover {
+    background-color: rgb(253, 137, 228);
+    color: rgb(31, 19, 11);
 }

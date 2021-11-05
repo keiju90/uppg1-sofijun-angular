@@ -7,9 +7,9 @@
 </section>
 
 <section id="userlist-editusers">
-<!-- newUserEvent from @Output in editusers.component.ts  -->
+<!-- newUserEvent and removeUserEvent from @Output in editusers.component.ts  -->
 <app-editusers (newUserEvent)=addUser($event) (removeUserEvent)=removeLastUser()> </app-editusers> 
 
-<!-- Array list from dashboard.comp.ts is sent to userlist component -->
+<!-- Arraylist from dashboard.comp.ts is sent to userlist component -->
 <app-userlist [users]="users"></app-userlist>
 </section>
